@@ -184,7 +184,7 @@ def check_fleet_edges(ai_settings, aliens):
             change_fleet_direction(ai_settings, aliens)
             break
 
-
+# 改变外星人移动方向
 def change_fleet_direction(ai_settings, aliens):
     """将整群外星人下移，并改变它们的方向"""
     for alien in aliens.sprites():
